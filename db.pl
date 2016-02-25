@@ -35,7 +35,7 @@ hint8([(_,handebol,_,hipismo,_)|_]).
 hint8([_|T]) :- hint6(T).
 
 % A turista de 22 anos gostaria de conhecer a praia de Ipanema.
-hint9(Persons) :- person(3, Persons, (_,_,_,ipanema,_)).
+hint9(Persons) :- person(3, Persons, (_,_,ipanema,_,_)).
 
 % A turista hospedada na Barra da Tijuca tem um ano de diferença em relação à turista que pretende assistir às competições de Hipismo.
 hint10([(_,_,_,_,tijuca),(_,_,_,hipismo,_)|_]).
